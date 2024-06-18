@@ -53,10 +53,38 @@ main {
 }
 
 /* portfolio styles */
+
+
 #interests {
-    border: 4px black ridge;
+    border: 4px rgb(184, 34, 34) ridge;
     padding: 8px;
 }
 h2, h3 {
     margin: 0px;
 }
+
+.content h1 {
+    color: black;
+}
+
+#portfolio {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#portfolio li {
+    background: #c01616;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+#portfolio li:hover {
+    background: #100f0f;
+}
+
+#portfolio a {
+    text-decoration: none;
+    color: #d31212;
+}
+
